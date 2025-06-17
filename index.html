@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Day</title>
+    <style>
+
+        @font-face {
+            font-family: 'Valentine' ;
+            src: url(fonts/AppleGaramond.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url(love.jpg);
+            background-attachment: fixed;
+        }
+
+        #conteiner {
+            position: relative;
+            
+            
+        }
+
+        #love {
+            position: absolute;
+            top: 15vh;
+            left: 30vw;
+            text-align: center;
+            font-family: 'Valentine';
+        }
+
+        #img1{
+            left: 55vw;
+            top: 10vh;
+            position: absolute;
+            transform: rotate(170deg);
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 5px solid white;
+        }
+
+        #img2{
+            left: 60vw;
+            top: 30vh;
+            position: absolute;
+            transform: rotate(20deg);
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 5px solid white;
+        }
+
+
+        pre{
+            font-size: 1.7em;
+            white-space: pre-line;
+            line-height: 35px;
+            font-family: 'Valentine' ;
+            color: white;
+        }
+
+        #love p{
+            
+            font-size: 1.7em;
+            color: white;
+
+        }
+
+        #photos {
+            position: absolute;
+            background-color: red;
+            top: 570px;
+            height: 300px;
+            width: 99vw;
+        }
+
+        #con {
+            position: absolute;
+            height: 30px;
+            width: 99vw;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.725);
+            top: 950px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body onload="Contador()">
+
+    <section id="conteiner">
+        <div id="love">
+            <pre> 
+                <span style="font-size: 2.5em;">Amor,</span>
+                Você é o sonho mais real
+                que Deus me fez viver!
+                Te quero para sempre
+                ao meu lado.
+            </pre>
+            <p>Feliz Dia dos Namorados</p>
+        </div>
+        <div id="img1">
+            
+        </div>
+        <div id="img2">
+
+        </div>
+
+        <div id="photos">
+
+        </div>
+
+        <div id="con">
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
