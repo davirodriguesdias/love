@@ -19,7 +19,8 @@
 
         body {
             height: 100vh;
-            background-image: url(love.jpg);
+            background-image: url(love2.gif);
+            background-size: 100% 100%;
             background-attachment: fixed;
         }
 
@@ -81,10 +82,12 @@
 
         #photos {
             position: absolute;
-            background-color: red;
+            background-color: rgba(0, 0, 0, 0.317);
             top: 570px;
-            height: 300px;
+            padding: 10px;
             width: 99vw;
+            overflow-x: auto;
+            
         }
 
         #con {
@@ -119,11 +122,23 @@
             padding: 20px;
         }
 
+        td {
+            border: 5px solid white;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 200px;
+            height: 230px;
+            border-radius: 5px;
+        }
+        
+
     </style>
 </head>
 <body onload="Contador()">
 
-    <section id="conteiner">
+    <main id="conteiner">
         <div id="love">
             <pre> 
                 <span style="font-size: 2.5em;">Amor,</span>
@@ -142,7 +157,27 @@
         </div>
 
         <div id="photos">
-
+            <table>
+                <tr>
+                    <td><img src="images/IMG_20230104_102108_340.jpg" alt=""></td>
+                    <td><img src="images/IMG_20221031_133615_044.jpg" alt=""></td>
+                    <td><img src="images/IMG_20230406_191139_593.webp" alt=""></td>
+                    <td><img src="images/IMG_20230618_125525_532.webp" alt=""></td>
+                    <td><img src="images/IMG_20230806_120201_041.webp" alt=""></td>
+                    <td><img src="images/IMG_20231026_164418_725.webp" alt=""></td>
+                    <td><img src="images/IMG_20231028_135509_573.webp" alt=""></td>
+                    <td><img src="images/IMG_20231214_193606_416.webp" alt=""></td>
+                    <td><img src="images/IMG_20231215_201252_566.jpg" alt=""></td>
+                    <td><img src="images/IMG_20240211_235126_518.webp" alt=""></td>
+                    <td><img src="images/IMG_20240211_235215_183.webp" alt=""></td>
+                    <td><img src="images/IMG_20240317_221104_674.webp" alt=""></td>
+                    <td><img src="images/IMG_20241027_181436_324.webp" alt=""></td>
+                    <td><img src="images/IMG_20241231_192001_354.webp" alt=""></td>
+                    <td><img src="images/IMG_20250221_193038_155.webp" alt=""></td>
+                    <td><img src="images/IMG_20250222_070911_384.webp" alt=""></td>
+                    <td><img src="images/IMG_20250429_181438_018.webp" alt=""></td>
+                </tr>
+            </table>
         </div>
 
         <div id="texto">
@@ -163,7 +198,7 @@
         <div id="con">
         </div>
 
-    </section>
+    </main>
     
 
     <script src="script.js"></script>
